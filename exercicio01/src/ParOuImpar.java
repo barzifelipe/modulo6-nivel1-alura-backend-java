@@ -1,3 +1,5 @@
+/*escrever um programa que determine se um número é par ou ímpar e exiba o resultado corretamente*/
+
 import java.util.Scanner;
 
 public class ParOuImpar {
@@ -8,10 +10,10 @@ public class ParOuImpar {
         int num = scan.nextInt();
 
         if(num%2 == 0){
-            System.out.println("O número é par");
+            System.out.println("O número " + num +" é par");
         }
         else{
-            System.out.println("O número é impar");
+            System.out.println("O número " + num + "  é impar");
         }
     }
 }
